@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/windbnb_challenge/static/css/main.0a04b3e2.chunk.css",
+    "main.js": "/windbnb_challenge/static/js/main.f9eb48f4.chunk.js",
+    "main.js.map": "/windbnb_challenge/static/js/main.f9eb48f4.chunk.js.map",
+    "runtime-main.js": "/windbnb_challenge/static/js/runtime-main.0635b99f.js",
+    "runtime-main.js.map": "/windbnb_challenge/static/js/runtime-main.0635b99f.js.map",
+    "static/js/2.5ed119d1.chunk.js": "/windbnb_challenge/static/js/2.5ed119d1.chunk.js",
+    "static/js/2.5ed119d1.chunk.js.map": "/windbnb_challenge/static/js/2.5ed119d1.chunk.js.map",
+    "static/js/3.911f26d7.chunk.js": "/windbnb_challenge/static/js/3.911f26d7.chunk.js",
+    "static/js/3.911f26d7.chunk.js.map": "/windbnb_challenge/static/js/3.911f26d7.chunk.js.map",
+    "index.html": "/windbnb_challenge/index.html",
+    "static/css/main.0a04b3e2.chunk.css.map": "/windbnb_challenge/static/css/main.0a04b3e2.chunk.css.map",
+    "static/js/2.5ed119d1.chunk.js.LICENSE.txt": "/windbnb_challenge/static/js/2.5ed119d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0635b99f.js",
+    "static/js/2.5ed119d1.chunk.js",
+    "static/css/main.0a04b3e2.chunk.css",
+    "static/js/main.f9eb48f4.chunk.js"
+  ]
+}
