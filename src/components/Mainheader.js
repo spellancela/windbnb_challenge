@@ -50,6 +50,9 @@ const MainHeader =(props)=>{
                        ref={locationRef}>   
                       <span class="material-icons">room</span> {i.location } </li>)  }
                 </ul>
+              {items.length === 0 ?<span style={{display:`flex`, color:`red`, fontWeight:`50px`}}> There is no match </span> :
+                <span style={{display:`flex`, color:`red`, fontWeight:`50px`}}> {items.length} 
+                { items.length >1 ? ' Stays': ' Stay'} </span>} 
           </div> 
         </div>
        </div>  

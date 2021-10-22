@@ -12,7 +12,7 @@ class App extends Component {
     super(props);
     this.state ={
       DUMMY_DATA :[
-        {image: 'https://www.heartmilanapartments.com/wp-content/uploads/affitti-brevi-lusso-milano-scaled.jpg', 
+        {image: 'https://th.bing.com/th/id/OIP.PoXsHJWD_8NASQOvoYA2IgHaE8?pid=ImgDet&rs=1', 
         description:'Blueground Minimalist Apartment' ,
         rating:5,
         type: 'Studio',
@@ -21,7 +21,7 @@ class App extends Component {
         guest: 5
         },
       
-        {image: 'https://www.heartmilanapartments.com/wp-content/uploads/affitti-brevi-lusso-milano-scaled.jpg', 
+        {image: 'https://th.bing.com/th/id/OIP.qgNnQXlSVFUCfuwTz75SxAHaE8?pid=ImgDet&rs=1', 
         description:'Gray Themed Fully furnished Apartment' ,
         rating: 4.8,
         type: 'Converted Flex',
@@ -38,7 +38,7 @@ class App extends Component {
         location: 'Makati City',
         guest: 6
         },
-        {image: 'https://www.heartmilanapartments.com/wp-content/uploads/affitti-brevi-lusso-milano-scaled.jpg', 
+        {image: 'https://th.bing.com/th/id/OIP.fuzkizYWO14tR5YxIcsfmQHaE7?pid=ImgDet&w=1200&h=799&rs=1', 
         description:'Blueground Minimalist Apartment' ,
         rating: 4.40,
         type: 'Studio',
@@ -56,7 +56,7 @@ class App extends Component {
         guest: 2
         },
       
-        {image: 'https://www.heartmilanapartments.com/wp-content/uploads/affitti-brevi-lusso-milano-scaled.jpg', 
+        {image: 'https://s3-us-west-2.amazonaws.com/avenuehq-listings/fvrebgv/000/262/442/661db988c1b11e6c4203faaab4ebb90e49fbbec4.jpg?lastModified=2019-11-21T17:53:29Z&fit=clip&w=1200&h=440', 
         description:'Gray Themed Fully furnished Apartment' ,
         rating: 4.6,
         type: 'Converted Flex',
@@ -102,6 +102,7 @@ class App extends Component {
         <div>  
           <Layout>   
            <MainHeader searchTextHandler={this.searchTextHandler} setLocation={this.filteredItem}/> 
+           
             { count > 0 ?
             <ApartmentList data={filteredText}/> : <NoList/> }
           </Layout>
