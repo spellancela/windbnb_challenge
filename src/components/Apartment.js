@@ -12,6 +12,7 @@ const Apartment =(props)=>{
        <div className="row"  key ='g1'> 
         <img src={props.image} className={classes.img} alt="..."/>
        </div>
+       
       <div className="row " >
         <div className={`col ${props.host.length ? classes.host_style : 'active'}`} >
            <strong> {props.host} </strong> 

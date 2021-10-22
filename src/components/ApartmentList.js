@@ -18,9 +18,7 @@ const ApartmentList =(props)=>{
   )
   return (
      <div className={classes.container}>  
-       
        {list}
-        
      </div>
   )
 }

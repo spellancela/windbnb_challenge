@@ -17,7 +17,7 @@ const MainHeader =(props)=>{
   return (
     
     <div className={`${isActive ? classes.active : ''}`} onClick={addActiveClass}> 
-     <div style={{backgroundColor: `white`, padding:`1.8rem` ,flexWrap:`wrap`}}
+     <div style={{backgroundColor: `white`, padding:`1.8rem`}}
         className={`d-flex ${isActive ? classes.header_active: ''}`} > 
 
           <div className="col"  style={{display:`flex`, alignItems: `center`}}>
@@ -39,7 +39,7 @@ const MainHeader =(props)=>{
         
        </div>
        <div style={{backgroundColor: `white`, padding:`1rem`}}
-        className={`d-flex col-12 ${isActive ? classes.header_active: ''}`} > 
+        className="d-flex col-12" > 
 
           <div className="col"  style={{display:`flex`}}>   </div>
           <div className="d-flex col col-8">
